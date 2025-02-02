@@ -2,23 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1-gallery</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-act="active"
-    />
-
-    <main>
-      <div class="container"><ul class="gallery"></ul></div>
-    </main>
-
-    <load src="./partials/footer.html" />
-    <script type="module" src="./js/1-gallery.js"></script>
+    <div class="content">
+      <div class="link-container">
+        <a href="index.html" class="link">Головна</a>
+        <a href="2-forms.html" class="link">Форма</a>
+      </div>
+      <ul class="gallery"></ul>
+    </div>
+    <script src="./js/1-gallery.js" type="module"></script>
   </body>
 </html>

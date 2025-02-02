@@ -2,35 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2-forms</title>
+    <title>Forms</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-curr="active"
-    />
-
-    <main class="container-form">
-      <div class="container">
-        <form class="feedback-form" autocomplete="off">
-          <div class="input-container">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required />
-          </div>
-
-          <label for="message">Message</label>
-          <textarea name="message" id="message" rows="8" required></textarea>
-
-          <button type="submit">Submit</button>
-        </form>
+    <div class="content">
+      <div class="link-container">
+        <a href="index.html" class="link">Головна</a>
+        <a href="1-gallery.html" class="link">Галерея</a>
       </div>
-    </main>
+      <main class="container-form">
+        <div class="container">
+          <form class="feedback-form" autocomplete="off">
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
 
-    <load src="./partials/footer.html" />
-    <script type="module" src="./js/2-forms.js"></script>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="8" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="./js/2-forms.js" type="module"></script>
   </body>
 </html>
