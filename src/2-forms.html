@@ -15,14 +15,12 @@
       <main class="container-form">
         <div class="container">
           <form class="feedback-form" autocomplete="off">
-            <div class="input-container">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" required />
+            <div class="feedback-cont">
+              <label> Email </label>
+              <input type="email" name="email" autofocus />
+              <label> Message </label>
+              <textarea name="message" rows="8"></textarea>
             </div>
-
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="8" required></textarea>
-
             <button type="submit">Submit</button>
           </form>
         </div>
